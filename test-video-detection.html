@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>视频检测测试</title>
+</head>
+<body>
+    <h1>视频URL检测测试</h1>
+    <div id="results"></div>
+    
+    <script>
+        const testUrls = [
+            'https://example.com/video.mp4',
+            'https://example.com/video.webm',
+            'https://example.com/video.mp4?v=123',
+            'https://example.com/video.webm?token=abc',
+            'https://example.com/image.jpg',
+            'https://example.com/image.gif',
+            '/uploads/video.mp4',
+            '/uploads/video.MP4',
+        ];
+        
+        const regex = /\.(mp4|webm)(\?.*)?$/i;
+        
+        const results = testUrls.map(url => {
+            const isVideo = regex.test(url);
+            return `<p>${url} - <strong>${isVideo ? '✅ 视频' : '❌ 非视频'}</strong></p>`;
+        });
+        
+        document.getElementById('results').innerHTML = results.join('');
+    </script>
+</body>
+</html>

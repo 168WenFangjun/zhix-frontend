@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>视频URL测试</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .video-test { margin: 20px 0; padding: 15px; border: 1px solid #ddd; }
+        video { max-width: 400px; }
+        .status { font-weight: bold; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>视频URL可访问性测试</h1>
+    <div id="results"></div>
+    
+    <script>
+        const baseURL = "https://cdn.jsdelivr.net/gh/168WenFangjun/zhix-articles@main";
+        const videoUrls = [
+            baseURL + "/videos/cat.mp4",
+            baseURL + "/videos/cold.mp4",
+            baseURL + "/videos/flower.webm",
+            baseURL + "/videos/flower.mp4",
+        ];
+        
+        const resultsDiv = document.getElementById('results');
+        
+        videoUrls.forEach((url, index) => {
+            const div = document.createElement('div');
+            div.className = 'video-test';
+            div.innerHTML = `
+                <h3>视频 ${index + 1}</h3>
+                <p>URL: ${url}</p>
+                <p class="status" id="status-${index}">检测中...</p>
+                <video id="video-${index}" src="${url}" controls style="display:none;"></video>
+            `;
+            resultsDiv.appendChild(div);
+            
+            const video = document.getElementById(`video-${index}`);
+            const status = document.getElementById(`status-${index}`);
+            
+            video.addEventListener('loadeddata', () => {
+                status.textContent = '✅ 视频可访问';
+                status.className = 'status success';
+                video.style.display = 'block';
+            });
+            
+            video.addEventListener('error', (e) => {
+                status.textContent = '❌ 视频无法加载: ' + (video.error ? video.error.message : '未知错误');
+                status.className = 'status error';
+            });
+        });
+    </script>
+</body>
+</html>

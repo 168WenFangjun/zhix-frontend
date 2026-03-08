@@ -2,6 +2,12 @@
 
 > 极志社区（ZhiX Club）Web 前端，基于 React 18 构建，支持文章阅读、会员订阅、Apple Pay 支付等功能。
 
+## 🌐 个人主页
+
+**👉 [https://www.macfans.app/](https://www.macfans.app/)**
+
+---
+
 ---
 
 ## 📸 界面预览

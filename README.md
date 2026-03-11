@@ -1,46 +1,59 @@
 <div align="center">
 
-# ⚡ ZhiX Club · 极志社区
+```
+███████╗██╗  ██╗██╗██╗  ██╗
+╚══███╔╝██║  ██║██║╚██╗██╔╝
+  ███╔╝ ███████║██║ ╚███╔╝
+ ███╔╝  ██╔══██║██║ ██╔██╗
+███████╗██║  ██║██║██╔╝ ██╗
+╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
+```
 
-**前端 · Frontend**
+### 极志社区 · 前端
+
+**你的内容，你的主场。**
 
 ---
 
-> 🔥 不只是博客，是你的数字主场。  
-> *Not just a blog — your digital stage.*
-
----
-
-[![Author](https://img.shields.io/badge/🧑‍💻%20作者主页-点击探索→-FF6B6B?style=for-the-badge&logoColor=white)](https://www.macfans.app/)
-[![Author EN](https://img.shields.io/badge/🌐%20Author's%20World-Explore%20Now%20→-6C63FF?style=for-the-badge&logoColor=white)](https://www.macfans.app/)
+[![作者主页](https://img.shields.io/badge/🔥_作者是谁？点进来就知道了-→-FF3B30?style=for-the-badge)](https://www.macfans.app/)
+&nbsp;
+[![Author](https://img.shields.io/badge/🌐_Who_built_this%3F_Find_out_→-6C63FF?style=for-the-badge)](https://www.macfans.app/)
 
 ---
 
 </div>
+
+---
 
 ## 🇨🇳 中文版
 
+<br>
+
 <div align="center">
 
-### 你好，这里是极志社区前端
+**不是所有博客都叫极志。**
 
-一个**颜值在线、性能拉满**的现代 Web 应用。  
-React 18 驱动，Apple HIG 设计语言，部署在 AWS 云端。
+这里没有废话，只有代码和态度。  
+React 18 驱动，AWS 云端托管，为认真的人而建。
 
 </div>
 
-### 🛠 技术栈
+<br>
 
-| 层级 | 技术 |
-|------|------|
-| 框架 | React 18 |
-| 路由 | React Router 6 |
-| 状态 | Context API |
-| 样式 | CSS3 · 响应式 |
-| 构建 | Create React App |
-| 部署 | AWS S3 + CloudFront |
+### 🧱 技术栈
 
-### 📂 项目结构
+| | 技术 |
+|---|---|
+| ⚛️ 框架 | React 18 |
+| 🔀 路由 | React Router 6 |
+| 🧠 状态 | Context API |
+| 🎨 样式 | CSS3 · 响应式 |
+| 📦 构建 | Create React App |
+| ☁️ 部署 | AWS S3 + CloudFront |
+
+<br>
+
+### 📁 项目结构
 
 ```
 frontend/
@@ -57,80 +70,88 @@ frontend/
 └── package.json
 ```
 
-### 🚀 快速上手
+<br>
+
+### ⚡ 三步跑起来
 
 ```bash
-# 安装依赖
 npm install
-
-# 配置环境变量
 cp .env.local.example .env.local
+npm start
 ```
 
-`.env.local` 示例：
+`.env.local` 配置：
 
 ```env
 REACT_APP_API_URL=http://localhost:8080
 REACT_APP_PAYMENT_API_URL=http://localhost:8081
 ```
 
-```bash
-# 启动开发服务器
-npm start        # → http://localhost:3000
+> 启动后访问 → `http://localhost:3000`
 
-# 构建生产版本
-npm run build
+<br>
+
+### 🎯 能干什么
+
+```
+✦ 全端响应式，手机平板桌面通吃
+✦ 三级权限体系：管理员 · 用户 · 游客
+✦ Markdown 编辑器，写作体验拉满
+✦ 全文搜索，找内容不费劲
+✦ 点赞 · 收藏，互动不缺席
+✦ Apple Pay 支付，一触即付
 ```
 
-### ✨ 功能一览
+<br>
 
-- ✅ 响应式设计，全端适配
-- ✅ Apple HIG 设计规范
-- ✅ 管理员 / 用户 / 游客三级权限
-- ✅ Markdown 文章编辑器
-- ✅ 全文搜索
-- ✅ 点赞 · 收藏
-- ✅ Apple Pay 支付
+### 🚀 部署
 
-### 📦 部署
+通过 GitHub Actions 自动构建，推送即部署，详见 [Frontend 部署指南](../docs/项目frontend部署指南1.0版.md)。
 
-详见 [Frontend 部署指南](../docs/项目frontend部署指南1.0版.md)，通过 GitHub Actions 自动部署至 AWS S3 + CloudFront。
+<br>
 
 ---
 
 <div align="center">
 
-💡 **想了解更多？来作者的主页逛逛 →**
+**这个项目背后的人，比你想象的更有意思。**
 
-[![Visit Author](https://img.shields.io/badge/🚀%20作者主页-macfans.app-FF6B6B?style=for-the-badge)](https://www.macfans.app/)
+[![👀 去看看作者在搞什么](https://img.shields.io/badge/👀_去看看作者在搞什么_→_macfans.app-FF3B30?style=for-the-badge)](https://www.macfans.app/)
 
 </div>
 
 ---
+
+<br>
 
 ## 🇺🇸 English Version
 
+<br>
+
 <div align="center">
 
-### Welcome to ZhiX Club Frontend
+**Not just another blog. This one has a soul.**
 
-A **sleek, high-performance** modern web app.  
-Powered by React 18, designed with Apple HIG, deployed on AWS.
+React 18 · AWS · Built for people who mean it.
 
 </div>
 
-### 🛠 Tech Stack
+<br>
 
-| Layer | Technology |
-|-------|------------|
-| Framework | React 18 |
-| Routing | React Router 6 |
-| State | Context API |
-| Styling | CSS3 · Responsive |
-| Build | Create React App |
-| Deploy | AWS S3 + CloudFront |
+### 🧱 Tech Stack
 
-### 📂 Project Structure
+| | Technology |
+|---|---|
+| ⚛️ Framework | React 18 |
+| 🔀 Routing | React Router 6 |
+| 🧠 State | Context API |
+| 🎨 Styling | CSS3 · Responsive |
+| 📦 Build | Create React App |
+| ☁️ Deploy | AWS S3 + CloudFront |
+
+<br>
+
+### 📁 Project Structure
 
 ```
 frontend/
@@ -147,59 +168,61 @@ frontend/
 └── package.json
 ```
 
-### 🚀 Getting Started
+<br>
+
+### ⚡ Up in 3 Steps
 
 ```bash
-# Install dependencies
 npm install
-
-# Set up environment
 cp .env.local.example .env.local
+npm start
 ```
 
-`.env.local` example:
+`.env.local` config:
 
 ```env
 REACT_APP_API_URL=http://localhost:8080
 REACT_APP_PAYMENT_API_URL=http://localhost:8081
 ```
 
-```bash
-# Start dev server
-npm start        # → http://localhost:3000
+> Runs at → `http://localhost:3000`
 
-# Build for production
-npm run build
+<br>
+
+### 🎯 What It Does
+
+```
+✦ Fully responsive — mobile, tablet, desktop
+✦ Role-based access: Admin · User · Guest
+✦ Markdown editor with smooth writing experience
+✦ Full-text search built in
+✦ Like & bookmark interactions
+✦ Apple Pay — tap and done
 ```
 
-### ✨ Features
+<br>
 
-- ✅ Fully responsive — desktop, tablet, mobile
-- ✅ Apple HIG design language
-- ✅ Role-based access: Admin / User / Guest
-- ✅ Markdown article editor
-- ✅ Full-text search
-- ✅ Like & bookmark
-- ✅ Apple Pay integration
+### 🚀 Deployment
 
-### 📦 Deployment
+Auto-deployed via GitHub Actions on every push. See [Frontend Deployment Guide](../docs/项目frontend部署指南1.0版.md).
 
-See [Frontend Deployment Guide](../docs/项目frontend部署指南1.0版.md). Auto-deployed to AWS S3 + CloudFront via GitHub Actions.
+<br>
 
 ---
 
 <div align="center">
 
-✨ **Curious about the author? Step into their world →**
+**The person behind this project is worth knowing.**
 
-[![Visit Author](https://img.shields.io/badge/🌐%20Author's%20Homepage-Explore%20Now-6C63FF?style=for-the-badge)](https://www.macfans.app/)
+[![🔗 Step Into the Author's World →](https://img.shields.io/badge/🔗_Step_Into_the_Author's_World_→-6C63FF?style=for-the-badge)](https://www.macfans.app/)
 
 </div>
 
 ---
 
 <div align="center">
+<br>
 
-**Made with ❤️ · ZhiX Team**
+`// made with focus · ZhiX Team`
 
 </div>

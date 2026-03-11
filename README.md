@@ -42,14 +42,17 @@ React 18 驱动，AWS 云端托管，为认真的人而建。
 
 ### 🧱 技术栈
 
-| | 技术 |
-|---|---|
-| ⚛️ 框架 | React 18 |
-| 🔀 路由 | React Router 6 |
-| 🧠 状态 | Context API |
-| 🎨 样式 | CSS3 · 响应式 |
-| 📦 构建 | Create React App |
-| ☁️ 部署 | AWS S3 + CloudFront |
+<div align="center">
+
+![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React_Router_6-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Context API](https://img.shields.io/badge/Context_API-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Create React App](https://img.shields.io/badge/Create_React_App-09D3AC?style=for-the-badge&logo=createreactapp&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white)
+![CloudFront](https://img.shields.io/badge/CloudFront-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+</div>
 
 <br>
 
@@ -140,14 +143,17 @@ React 18 · AWS · Built for people who mean it.
 
 ### 🧱 Tech Stack
 
-| | Technology |
-|---|---|
-| ⚛️ Framework | React 18 |
-| 🔀 Routing | React Router 6 |
-| 🧠 State | Context API |
-| 🎨 Styling | CSS3 · Responsive |
-| 📦 Build | Create React App |
-| ☁️ Deploy | AWS S3 + CloudFront |
+<div align="center">
+
+![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React_Router_6-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Context API](https://img.shields.io/badge/Context_API-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Create React App](https://img.shields.io/badge/Create_React_App-09D3AC?style=for-the-badge&logo=createreactapp&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white)
+![CloudFront](https://img.shields.io/badge/CloudFront-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+</div>
 
 <br>
 

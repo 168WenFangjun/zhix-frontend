@@ -109,7 +109,7 @@ REACT_APP_PAYMENT_API_URL=http://localhost:8081
 
 ### 🚀 部署
 
-通过 GitHub Actions 自动构建，推送即部署，详见 [Frontend 部署指南](../docs/项目frontend部署指南1.0版.md)。
+通过 GitHub Actions 自动构建，推送即部署。
 
 <br>
 
@@ -210,7 +210,7 @@ REACT_APP_PAYMENT_API_URL=http://localhost:8081
 
 ### 🚀 Deployment
 
-Auto-deployed via GitHub Actions on every push. See [Frontend Deployment Guide](../docs/项目frontend部署指南1.0版.md).
+Auto-deployed via GitHub Actions on every push.
 
 <br>
 
